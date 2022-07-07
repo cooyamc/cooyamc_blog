@@ -1,0 +1,43 @@
+baseURL = 'http://cooyamc.netlify.app'
+languageCode = 'ja'
+title = 'cooyamc_site'
+theme = "m10c"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+
+[[params.social]]
+  icon = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/cooyamc"
+
+[[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/cooyamc"
+
+[params]
+  author = "cooyamc"
+  description = "Linuxとハードが好きなよくわからん人"
+  avatar = "./images/avatar.jpg"
+  menu_item_separator = " / "
+  favicon = "./images/favicon.ico"
+
+[params.style]
+  darkestColor = "#1a1a1a"
+  darkColor = "#242424"
+  lightColor =  "#d9d9d9"
+  lightestColor = "#ffffff"
+  primaryColor = "#40b3c9"
+
+[[params.social]]
+  icon = "youtube"
+  name = "Youtube"
+  url = "https://www.youtube.com/channel/UCS8xNnP4-2XUkCOZ06t-8Jw"
