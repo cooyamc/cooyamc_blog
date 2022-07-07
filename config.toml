@@ -1,4 +1,4 @@
-baseURL = 'http://cooyamc.netlify.app'
+baseURL = 'https://cooyamc.netlify.app'
 languageCode = 'ja'
 title = 'cooyamc_site'
 theme = "m10c"
